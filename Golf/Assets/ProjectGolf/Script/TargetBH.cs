@@ -15,12 +15,6 @@ public class TargetBH : MonoBehaviour {
     {
         target = Instantiate(prefbTarget, Vector3.zero, Quaternion.Euler(90,0,0));
         target.SetActive(false);
-
-        
-
-        float t = (2 + 22) * 2 / 9.81f;
-        t = Mathf.Sqrt(t);
-        print(t);
     }
 
     void Update () {
