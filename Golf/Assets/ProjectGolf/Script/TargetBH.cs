@@ -11,7 +11,7 @@ public class TargetBH : MonoBehaviour {
     public float distance = 1000;
     // Update is called once per frame
 
-    private void Start()
+    private void Awake()
     {
         target = Instantiate(prefbTarget, Vector3.zero, Quaternion.Euler(90,0,0));
         target.SetActive(false);
